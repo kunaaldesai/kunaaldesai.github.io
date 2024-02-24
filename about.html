@@ -7,8 +7,8 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="script.js" defer></script>
 </head>
-<body>
-  <div class="container-fluid" id="theme">
+<body id="theme">
+  <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand" href="#">Kunaal Desai</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,8 +19,25 @@
           <li class="nav-item active">
             <a class="nav-link" href="index.html">Home</a>
           </li>
+          <!-- Coding Projects Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="codingDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Coding Projects</a>
+            <div class="dropdown-menu" aria-labelledby="codingDropdown">
+              <a class="dropdown-item" href="pomodoro_timer.html">Pomodoro Timer</a>
+            </div>
+          </li>
           <li class="nav-item">
-            <a class="nav-link" href="election_model.html">2024 Presidential Election Model</a>
+            <a class="nav-link" href="research.html">Research Projects</a>
+          </li>
+           <!-- Sports Analytics Dropdown -->
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="sportsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sports Analytics</a>
+            <div class="dropdown-menu" aria-labelledby="sportsDropdown">
+              <a class="dropdown-item" href="soccer.html">Soccer</a>
+              <a class="dropdown-item" href="nfl.html">NFL</a>
+              <a class="dropdown-item" href="nba.html">NBA</a>
+              <a class="dropdown-item" href="mma.html">MMA</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
@@ -29,25 +46,10 @@
       </div>
       <button id="toggleTheme" class="btn btn-secondary">Dark Mode</button>
     </nav>
-    
-    <main class="container mt-5">
-      <div class="text-center">
-        <h1 class="display-4">HELLO, I'M KUNAAL DESAI.</h1>
-        <hr class="my-divider">
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="guitar.jpg" alt="Your Picture" class="img-fluid">
-        </div>
-        <div class="col-md-6 text-left">
-          <h1 class="lead">WELCOME TO MY WEBSITE!</h1>
-          <p class="lead">I will be using this website as an online portfolio to keep track of my projects. Feel free to contact me on <a href="https://www.linkedin.com/in/kunaaldesai/" target="_blank">LinkedIn</a> or via email at <a href="mailto:me@kunaaldesai.com">me@kunaaldesai.com</a>.
-          <br>
-          Be sure to check out the other tabs!
-          <br>
-          Here is a link to <a href="https://github.com/kunaaldesai" target="_blank">my Github profile</a>.</p>
-        </div>
-      </div>
+
+    <main class="container mt-5 text-center">
+      <h1 class="display-4">About</h1>
+      <p class="lead">Welcome to my personal website!</p>
     </main>
 
     <footer class="footer bg-dark text-white text-center py-3 mt-auto">
