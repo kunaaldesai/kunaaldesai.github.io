@@ -1,0 +1,56 @@
+index,Trump_win_prob,Biden_win_prob
+Alabama,0.99858,0.00142
+Alaska,0.82624,0.17376
+Arizona,0.70246,0.29754
+Arkansas,0.99994,6e-05
+California,0.00968,0.99032
+Colorado,0.2108,0.7892
+Connecticut,0.10898,0.89102
+Delaware,0.00074,0.99926
+District of Columbia,0.0,1.0
+Florida,0.83914,0.16086
+Georgia,0.80466,0.19534
+Hawaii,2e-05,0.99998
+Idaho,0.99962,0.00038
+Illinois,0.12888,0.87112
+Indiana,0.98748,0.01252
+Iowa,0.87062,0.12938
+Kansas,0.97064,0.02936
+Kentucky,0.99932,0.00068
+Louisiana,0.96064,0.03936
+Maine,0.45384,0.54616
+Maine CD-1,0.02874,0.97126
+Maine CD-2,0.95046,0.04954
+Maryland,0.01338,0.98662
+Massachusetts,0.0095,0.9905
+Michigan,0.67394,0.32606
+Minnesota,0.35944,0.64056
+Mississippi,0.98334,0.01666
+Missouri,0.97974,0.02026
+Montana,0.99458,0.00542
+Nebraska,0.98012,0.01988
+Nebraska CD-1,0.52134,0.47866
+Nebraska CD-2,0.28172,0.71828
+Nevada,0.7889,0.2111
+New Hampshire,0.23946,0.76054
+New Jersey,0.00388,0.99612
+New Mexico,0.16648,0.83352
+New York,0.11522,0.88478
+North Carolina,0.783,0.217
+North Dakota,0.99998,2e-05
+Ohio,0.90484,0.09516
+Oklahoma,0.99964,0.00036
+Oregon,0.0552,0.9448
+Pennsylvania,0.55848,0.44152
+Rhode Island,0.02992,0.97008
+South Carolina,0.95344,0.04656
+South Dakota,0.99964,0.00036
+Tennessee,0.99928,0.00072
+Texas,0.83634,0.16366
+Utah,0.8785,0.1215
+Vermont,0.0,1.0
+Virginia,0.29208,0.70792
+Washington,0.03514,0.96486
+West Virginia,1.0,0.0
+Wisconsin,0.57252,0.42748
+Wyoming,1.0,0.0
