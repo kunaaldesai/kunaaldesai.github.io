@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const toggleThemeButton = document.getElementById("toggleTheme");
 
-  // Load theme from local storage or default to 'light'
   let currentTheme = localStorage.getItem('theme') || 'light';
   updateTheme();
 
